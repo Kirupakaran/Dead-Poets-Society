@@ -1,0 +1,9 @@
+##vagrant files
+.vagrant/*
+
+##virtualenv files
+.virtualenv/*
+
+##logs
+*.log
+

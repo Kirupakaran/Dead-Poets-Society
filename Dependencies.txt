@@ -1,0 +1,22 @@
+Requirements:
+
+Base:
+Python 3 (3.5)
+pip3
+virtualenv
+
+Server:
+Django python (1.10)
+
+DB dependecies:
+Postgressql (9.5)
+psychopg2
+libpq-dev (for postgres)
+
+api framework:
+djangorestframework
+
+client:
+nodejs v6.1.0
+npm build-essential
+reactjs (installed using create-react-app)
