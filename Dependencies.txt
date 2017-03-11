@@ -20,3 +20,4 @@ client:
 nodejs v6.1.0
 npm build-essential
 reactjs (installed using create-react-app)
+materialize-css
