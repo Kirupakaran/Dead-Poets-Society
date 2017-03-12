@@ -13,12 +13,13 @@ body {
   background: url('../images/books.jpg');
 }
 
-nav, footer {
-  background: rgba(0, 0, 0, 0.1);
+ui.header, ui.footer {
+  background: rgba(0, 0, 0, 0.4);
 }
 
-.brand-name {
+.title {
   font-family: 'Pacifico', cursive;
+  color: white;
 }
 
 .main-content {
@@ -26,16 +27,8 @@ nav, footer {
   margin: 40px;
   padding: 40px;
 }
-.material-icons {
-	font-size: inherit;
-}
 
-.App {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-main {
-  flex: 1 0 auto;
+.ui.footer {
+  position: absolute;
+  bottom: 5px;
 }
